@@ -1,5 +1,4 @@
 Pod::Spec.new do |s|
-
 s.name         = "Vdopia-InView-SDK"
 s.version      = "2.5.0"
 s.summary      = "A vdopiasdk mobile advertising sdk"
@@ -17,7 +16,7 @@ s.source_files  = "**/*.{h,m}",
 s.resources = "**/*.{txt,js}"
 s.public_header_files = "**/*.h"
 s.ios.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreBluetooth', 'CoreGraphics', 'CoreLocation', 'CoreMedia', 'CoreTelephony', 'EventKit', 'EventKitUI', 'Foundation', 'iAd', 'MapKit', 'MediaPlayer', 'MediaToolbox', 'MobileCoreServices', 'QuartzCore', 'SafariServices', 'Security', 'Social', 'SystemConfiguration', 'UIKit', 'WebKit'
-s.vendored_libraries = "liblibrary_vdopia.a"
+s.vendored_libraries = "libNativeLiblibrary_Vdopia.a"
 s.vendored_frameworks = 'VDPMoatMobileAppKit.framework', 'AdColony.framework', 'AppLovinSDK.framework'
 s.dependency 'InMobiSDK', '~> 6.0.0'
 s.dependency 'Google-Mobile-Ads-SDK', '~> 7.19.0'
