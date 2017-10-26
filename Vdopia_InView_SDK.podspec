@@ -1,11 +1,12 @@
 Pod::Spec.new do |s|
+
 s.name         = "Vdopia_InView_SDK"
 s.version      = "2.5.0.1"
 s.summary      = "A vdopiasdk mobile advertising sdk"
 s.description  = "vdopia mobile advertising SDK gives developers a fast and convenient way to monetize their apps."
 s.license = { :type => 'MIT', :text => <<-LICENSE
 Copyright 2012
-Permission is granted to...
+Permission is granted to..
 LICENSE
 }
 s.homepage     = "http://www.vdopia.com/mobile/"
